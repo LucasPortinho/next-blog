@@ -1,5 +1,3 @@
-Claro! Aqui está a versão em inglês do seu `README.md`, pronta para copiar e colar diretamente no GitHub:
-
 ---
 
 # 🧪 Educational Blog with Next.js
