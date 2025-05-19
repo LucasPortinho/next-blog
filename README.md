@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Claro! Aqui está a versão em inglês do seu `README.md`, pronta para copiar e colar diretamente no GitHub:
 
-## Getting Started
+---
 
-First, run the development server:
+# 🧪 Educational Blog with Next.js
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This repository contains an **experimental blog built with Next.js**, created **exclusively for educational purposes**. It was developed as a personal lab to deeply explore the modern capabilities of the framework and test **advanced fullstack development patterns**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> ⚠️ **Disclaimer:** This project is **not intended for production use**. It was built purely for learning, experimentation, and hands-on practice.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Technologies & Concepts Explored
 
-## Learn More
+### ⚛️ Next.js (13+ / App Router)
 
-To learn more about Next.js, take a look at the following resources:
+* **Server and Client Components**: clear separation for performance and modularity.
+* **Server Actions**: secure and declarative server-side logic handling.
+* **Dynamic Routes**: page generation based on route parameters like slugs.
+* **Hybrid Rendering**: strategic use of **SSR** and **ISR** depending on context.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🧵 Modern React/Next Hooks
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* `useTransition`: improves UX during async transitions.
+* `useEffect`: for side effects in client components.
+* `useActionState`: handles form states and async server mutations.
 
-## Deploy on Vercel
+### 📦 Caching & Revalidation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **`unstable_cache`**: async function caching with fine-grained control.
+* **`revalidateTag`**: intelligent tag-based revalidation for optimized performance and data freshness.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🔐 Security & Best Practices
+
+* **JWT-based Authentication**: secure session management.
+* **Custom Middleware**: protects routes, validates headers and tokens.
+* **DTOs (Data Transfer Objects)**: ensures secure and structured data transfer between layers.
+
+### 🧱 Project Architecture
+
+* **Repository Pattern** for data access: separates business logic from persistence.
+* Clean component separation with proper client/server boundaries.
+* Modular and scalable structure.
+
+### 📈 SEO & Optimization
+
+* Dynamic metadata with `generateMetadata` per route.
+* OpenGraph, custom titles, and descriptions for enhanced SEO.
+* Automatic image optimization, lazy loading, and semantic HTML usage.
+
+---
+
+## 🎯 Project Purpose
+
+This project was designed as a **practical learning tool and experiment playground**. Rather than following a rigid standard, it explores a variety of Next.js capabilities — especially the newest features — testing real-world use cases and best practices.
+
+It served as a way to **consolidate knowledge** while applying modern web development principles such as security, performance, scalable architecture, and fullstack integration.
+
+---
+
+## 🧪 Final Notes
+
+* Code written with a strong focus on **clarity, security, organization, and performance**.
+* Some architectural choices were intentionally made to **explore concepts**, even when simpler solutions existed.
+* This project will likely continue evolving as new features are tested — always with an educational mindset.
+
+---
